@@ -1,6 +1,6 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "/api",
+  baseURL: "https://task-scheduler-backend.onrender.com/",
 });
 export default api;
